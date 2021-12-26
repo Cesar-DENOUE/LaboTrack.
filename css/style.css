@@ -1,3 +1,8 @@
+html { 
+    min-height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(22, 22, 22); 
@@ -66,4 +71,35 @@ a:hover {
 
 .texte {
     text-align: left;
+}
+
+.line {
+    width: 6em;
+    border-right: 2px solid white;
+    font-size: 180%;
+    overflow: hidden;
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(15) 1s 1 normal both, 
+    blinkTextCursor 500ms steps(15) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6em;
+        border-color: transparent;
+    }
+}
+
+@keyframes blindTextCursor {
+    from {
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
 }

@@ -66,8 +66,13 @@ a:hover {
     transition: 1s;
 }
 
-.texte {
-    text-align: left;
+.texte2 {
+    width: 170px;
+    padding-left: 10px;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    background-color: rgb(22, 22, 22);
 }
 
 .line {

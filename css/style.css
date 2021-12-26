@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'codenext-extrabold';
+    src: url('fonts/codenext-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/codenext-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(22, 22, 22); 
+    color: white;
+}
+
+h2 {
+    width: 200px;
+    font-size: 25px;
+    background: -webkit-linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.en-tete {
+    display: flex;
+}
+
+a {
+    color: white;
+    padding: 6px 6px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    font-size: 18px;
+    background: -webkit-linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.cadre {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.table {
+    border: 3px rgb(189, 189, 189) solid;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: 18% 18% 18% 18%;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: 1s;
+}
+
+.table:hover {
+    border: 3px rgb(133, 133, 133) solid;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding: 18% 30% 18% 18%;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: 1s;
+}
+
+.texte {
+    text-align: left;
+}

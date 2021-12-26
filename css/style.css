@@ -105,3 +105,18 @@ a:hover {
         border-right-color: transparent;
     }
 }
+
+table
+{
+    border-collapse: collapse;
+    background-attachment: scroll;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 97%;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 3px solid rgb(189, 189, 189);
+    border-radius: 6px;
+}

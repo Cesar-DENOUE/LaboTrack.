@@ -5,9 +5,9 @@ body {
 }
 
 .all {
-    border: 2px white solid;
-    border-radius: 6px;
-    margin-top: 25%;
+    border: 3px white solid;
+    border-radius: 10px;
+    margin-top: 12%;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 25%;
@@ -25,6 +25,8 @@ body {
 
 
 .pass {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
     display: flex;
     flex-direction: row;
     border: 2px rgb(22, 22, 22) solid;

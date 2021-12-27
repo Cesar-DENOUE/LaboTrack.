@@ -61,3 +61,47 @@ body {
         border-right-color: transparent;
     }
 }
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.envoyer {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    border: 2px rgb(22, 22, 22) solid;
+    border-radius: 6px;
+    position: relative;
+    top: 6px;
+}
+
+.etape {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    border: 2px rgb(22, 22, 22) solid;
+    border-radius: 6px;
+    position: relative;
+    top: 6px;
+}
+
+.ville {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    border: 2px rgb(22, 22, 22) solid;
+    border-radius: 6px;
+    position: relative;
+    top: 6px;
+}

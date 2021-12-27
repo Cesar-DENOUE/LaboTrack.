@@ -22,5 +22,46 @@
         <a href="login.html" class="menu">Connexion</a>
     </div>
     </div>
+    </br>
+    <form method="post" class="formulaire" action="traitement.php">
+        
+        <p>
+            <label for="etape">Etape</label><br />
+            <select name="etape" class="etape">
+                    <option value="Permis déposé">Permis déposé</option>
+                    <option value="Permis accepté">Permis accepté</option>
+                    <option value="Chappe coulée">Chappe coulée</option>
+                    <option value="Elevation">Elevation</option>
+                    <option value="Interieur">Interieur</option>
+                    <option value="Livraison">Livraison</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="ville">Clients</label><br />
+            <select name="ville" class="ville">
+                <optgroup label="Les Sables d'Olonne">
+                    <option value="Mr Jean">Mr Jean</option>
+                    <option value="Mme Anne">Mme Anne</option>
+                    <option value="Mme Bourdin">Mme  Bourdin</option>
+                </optgroup>
+                <optgroup label="Bretignolles">
+                    <option value="Mr Dubois">Mr Dubois</option>
+                    <option value="Mme Gémard">Mme Gémard-Unis</option>
+                </optgroup>
+                <optgroup label="Brem sur Mer">
+                    <option value="Mr Denoue">Mr Denoue</option>
+                    <option value="Mme Dubreuil">Mme Dubreuil</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="ameliorer">Problème renconté</label><br />
+            <textarea name="ameliorer" class="ameliorer"></textarea>
+        </p>
+
+        <input type="submit" class="envoyer" value="Envoyer" />
+    </form>
 </body>
 </html>

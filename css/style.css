@@ -158,7 +158,7 @@ td, th /* Mettre une bordure sur les td ET les th */
     border-radius: 6px;
     margin-left: 3px;
     margin-right: 3px;
-    width: 100%;
+    width: 99%;
     height: 400px;
     transition: 1s;
 }

@@ -120,6 +120,7 @@ td, th /* Mettre une bordure sur les td ET les th */
 {
     border: 2px solid rgb(189, 189, 189);
     border-radius: 6px;
+    overflow: scroll;
 }
 
 .add {

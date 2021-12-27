@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(22, 22, 22); 
+    color: white;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.en-tete {
+    display: flex;
+}
+
+.menu {
+    color: white;
+    padding: 6px 6px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    font-size: 18px;
+    background: -webkit-linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.line {
+    width: 6em;
+    border-right: 2px solid white;
+    font-size: 180%;
+    overflow: hidden;
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(15) 1s 1 normal both, 
+    blinkTextCursor 500ms steps(15) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6em;
+        border-color: transparent;
+    }
+}
+
+@keyframes blindTextCursor {
+    from {
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

@@ -6,7 +6,7 @@ body {
 
 .all {
     border: 3px white solid;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-top: 12%;
     margin-left: 25%;
     margin-right: 25%;
@@ -53,14 +53,12 @@ body {
 }
 
 .line {
-    color: white;
     position: relative;
     left: 15px;
     top: 10px;
     width: 6em;
     border-right: 2px solid white;
     font-size: 180%;
-    text-decoration: none;
     overflow: hidden;
 }
 

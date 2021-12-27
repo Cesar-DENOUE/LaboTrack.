@@ -13,6 +13,22 @@
     </head>
 
 <body>
-    <h1>Connectez-vous à LaboTrack.</h1>
+    <div class="all">
+    <h1 class="titre">Connectez-vous à LaboTrack.</h1>
+
+    <form method="post" action="traitement.php">
+        <p>
+            <input type="text" name="pseudo" class="pseudo" placeholder="Nom d'utilisateur" required />
+            
+            <br class="espacement" />
+            <input type="password" name="pass" class="pass" placeholder="Mot de passe" required/>
+
+            <br />
+            <input type="submit" value="Se connecter" class="Connect" />
+              
+        </p>
+     </form>
+    </div>
+
 </body>
 </html>

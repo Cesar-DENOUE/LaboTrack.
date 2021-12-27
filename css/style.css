@@ -110,7 +110,7 @@ table
 {
     font-size: 15px;
     border-collapse: collapse;
-    background-attachment: scroll;
+    overflow: scroll;
     margin-left: 2%;
     margin-right: 2%;
     width: 97%;

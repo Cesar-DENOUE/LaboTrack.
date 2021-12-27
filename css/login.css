@@ -7,10 +7,12 @@ body {
 .all {
     border: 2px white solid;
     border-radius: 6px;
-    align-items: center;
-    margin: 25% 0% 0% 25%;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
     width: 50%;
-    height: 400px;
+    height: 50%;
 }
 
 .titre {
@@ -21,41 +23,31 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.pseudo {
-    border: 2px rgb(22, 22, 22) solid;
-    border-radius: 4px;
-    width: 50%;
-    height: 20px;
-    margin-right: 25%;
-    margin-left: 25%;
-    position: relative;
-    top: 40px;
-}
 
 .pass {
+    display: flex;
+    flex-direction: row;
     border: 2px rgb(22, 22, 22) solid;
     border-radius: 4px;
     width: 50%;
     height: 20px;
     margin-right: 25%;
     margin-left: 25%;
-    position: relative;
-    top: 60px;
 }
 
 .Connect {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: white;
-    width: 50%;
-    height: 40px;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
     border: 2px rgb(22, 22, 22) solid;
     border-radius: 6px;
-    background: rgb(26,198,12);
-    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);    margin-right: 25%;
+    width: 50%;
     margin-left: 25%;
+    margin-right: 25%;
     position: relative;
-    top: 100px;
+    bottom: 5px;
 }
 
 .line {

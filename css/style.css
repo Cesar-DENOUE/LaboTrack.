@@ -180,3 +180,17 @@ td, th /* Mettre une bordure sur les td ET les th */
     background-color: rgb(22, 22, 22);
     transition: 1s;
 }
+
+.valider {
+    display: flex;
+    align-items: center;
+}
+
+.valider2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    border: 2px rgb(22, 22, 22) solid;
+    border-radius: 6px;
+}

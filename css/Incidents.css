@@ -30,9 +30,11 @@ body {
 }
 
 .line {
+    color: white;
     width: 6em;
     border-right: 2px solid white;
     font-size: 180%;
+    text-decoration: none;
     overflow: hidden;
 }
 
@@ -58,4 +60,33 @@ body {
     to {
         border-right-color: transparent;
     }
+}
+
+.cadre {
+    border: 3px rgb(189, 189, 189) solid;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 99%;
+    height: 400px;
+    transition: 1s;
+}
+
+.cadre:hover {
+    border: 3px rgb(133, 133, 133) solid;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 99%;
+    height: 600px;
+    transition: 1s;
+}
+
+.texte {
+    width: 170px;
+    padding-left: 10px;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    background-color: rgb(22, 22, 22);
 }

@@ -76,9 +76,11 @@ h2 {
 }
 
 .line {
+    color: white;
     width: 6em;
     border-right: 2px solid white;
     font-size: 180%;
+    text-decoration: none;
     overflow: hidden;
 }
 

@@ -108,6 +108,7 @@ h2 {
 
 table
 {
+    font-size: 15px;
     border-collapse: collapse;
     background-attachment: scroll;
     margin-left: 2%;
@@ -117,7 +118,7 @@ table
 
 td, th /* Mettre une bordure sur les td ET les th */
 {
-    border: 3px solid rgb(189, 189, 189);
+    border: 2px solid rgb(189, 189, 189);
     border-radius: 6px;
 }
 

@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(22, 22, 22); 
+    color: white;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.en-tete {
+    display: flex;
+}
+
+.menu {
+    color: white;
+    padding: 6px 6px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    font-size: 18px;
+    background: -webkit-linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.line {
+    color: white;
+    width: 6em;
+    border-right: 2px solid white;
+    font-size: 180%;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(15) 1s 1 normal both, 
+    blinkTextCursor 500ms steps(15) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6em;
+        border-color: transparent;
+    }
+}
+
+@keyframes blindTextCursor {
+    from {
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.members_block {
+    border: 2px white solid;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 99%;
+    height: 200px;
+    position: relative;
+    top: 30px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 20%;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .members_block {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 99%;
+        height: 600px;
+    }
+
+    .members
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        position: relative;
+        top: 30px;
+    }
+
+    .member1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 25px 25px 25px 25px;
+    }
+}
+
+.member1 {
+    border: 2px rgb(22, 22, 22) solid;
+    border-radius: 200px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    background: rgb(26,198,12);
+    background: linear-gradient(45deg, rgba(26,198,12,1) 0%, rgba(0,31,255,1) 100%);
+}
+
+.texte_members {
+    background-color: rgb(22, 22, 22);
+    padding-left: 10px;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    width: 220px;
+}
